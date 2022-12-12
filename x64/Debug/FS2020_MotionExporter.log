@@ -1,0 +1,15 @@
+﻿  Main.cpp
+D:\OneDrive\Desktop\FS2DCS\UDP_Talker.h(22,17): error C2872: 'byte': ambiguous symbol
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\rpcndr.h(191,23): message : could be 'unsigned char byte'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\cstddef(28,12): message : or       'std::byte'
+D:\OneDrive\Desktop\FS2DCS\UDP_Talker.h(26,23): error C2872: 'byte': ambiguous symbol
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\rpcndr.h(191,23): message : could be 'unsigned char byte'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\cstddef(28,12): message : or       'std::byte'
+  UDP_Talker.cpp
+D:\OneDrive\Desktop\FS2DCS\UDP_Talker.h(22,17): error C2872: 'byte': ambiguous symbol
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\rpcndr.h(191,23): message : could be 'unsigned char byte'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\cstddef(28,12): message : or       'std::byte'
+D:\OneDrive\Desktop\FS2DCS\UDP_Talker.h(26,23): error C2872: 'byte': ambiguous symbol
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\shared\rpcndr.h(191,23): message : could be 'unsigned char byte'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\cstddef(28,12): message : or       'std::byte'
+  Generating Code...
