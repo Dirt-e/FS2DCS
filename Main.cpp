@@ -81,8 +81,8 @@ void CALLBACK ProcessData(SIMCONNECT_RECV* pData, DWORD cbData, void* pContext) 
 			v_MotionData.push_back(to_string(accLatWithGrav));	//	[01]
 			v_MotionData.push_back(to_string(accVertWithGrav));	//	[02]
 
-			v_MotionData.push_back("0.01");						//	[03]	[Speed_lon]
-			v_MotionData.push_back("0.01");						//	[04]	[Speed_lat]
+			v_MotionData.push_back("0.00");						//	[03]	[Speed_lon]
+			v_MotionData.push_back("0.00");						//	[04]	[Speed_lat]
 			v_MotionData.push_back(to_string(pS->VS));			//	[05]
 
 			v_MotionData.push_back(to_string(-pS->WY));			//	[06]	angular rates
@@ -95,10 +95,10 @@ void CALLBACK ProcessData(SIMCONNECT_RECV* pData, DWORD cbData, void* pContext) 
 
 			v_MotionData.push_back(to_string(pS->TAS));			//	[12]
 
-			v_MotionData.push_back("0.01");						//	[13]
-			v_MotionData.push_back("0.01");						//	[NLG]
-			v_MotionData.push_back("0.01");						//	[MLG_L]
-			v_MotionData.push_back("0.01");						//	[MLG_R]
+			v_MotionData.push_back("0.00");						//	[13]
+			v_MotionData.push_back("0.00");						//	[NLG]
+			v_MotionData.push_back("0.00");						//	[MLG_L]
+			v_MotionData.push_back("0.00");						//	[MLG_R]
 
 			v_MotionData.push_back(to_string(pS->HGT));			//	[17]
 
