@@ -86,7 +86,7 @@ void CALLBACK ProcessData(SIMCONNECT_RECV* pData, DWORD cbData, void* pContext) 
 			v_MotionData.push_back(to_string(pS->VS));			//	[05]
 
 			v_MotionData.push_back(to_string(-pS->WY));			//	[06]	angular rates
-			v_MotionData.push_back(to_string(pS->WX));			//	[07]
+			v_MotionData.push_back(to_string(-pS->WX));			//	[07]
 			v_MotionData.push_back(to_string(-pS->WZ));			//	[08]
 
 			v_MotionData.push_back(to_string(pS->HDG));			//	[09]
